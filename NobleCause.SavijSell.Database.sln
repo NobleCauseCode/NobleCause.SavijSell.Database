@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NobleCause.SavijSell.Database", "NobleCause.SavijSell.Database\NobleCause.SavijSell.Database.sqlproj", "{8BD412EF-4324-4206-8830-E669A0AB9E29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BD412EF-4324-4206-8830-E669A0AB9E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD412EF-4324-4206-8830-E669A0AB9E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD412EF-4324-4206-8830-E669A0AB9E29}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8BD412EF-4324-4206-8830-E669A0AB9E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD412EF-4324-4206-8830-E669A0AB9E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD412EF-4324-4206-8830-E669A0AB9E29}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {837102F2-A36A-448C-BCEB-6D6318F62694}
+	EndGlobalSection
+EndGlobal
