@@ -12,13 +12,13 @@ DELETE FROM [dbo].[Users]
 GO
 SET IDENTITY_INSERT [dbo].[Users] ON 
 GO
-INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (1, N'Savij', N'Coder', N'savij.coder@sharklasers.com', N'Password123!', N'27502', N'SavijCoder', NULL, 1, 1, CAST(N'2021-08-22T13:10:48.290' AS DateTime), CAST(N'2021-08-22T13:10:48.290' AS DateTime))
+INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (1, N'Savij', N'Coder', N'savij.coder@sharklasers.com', N'AHNKaXYwQlEDpUYMCEKFkgOb752AS2Lkpc6OH09IkCBOPchk3sbqC/fXQq2/TGCEsg==', N'27502', N'SavijCoder', NULL, 1, 1, CAST(N'2021-08-22T13:10:48.290' AS DateTime), CAST(N'2021-08-22T13:10:48.290' AS DateTime))
 GO
-INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (2, N'Samantha', N'Carter', N'samcartersavijsell@sharklasers.com', N'Password234!', N'80914', N'ColonelCarter', NULL, 1, 1, CAST(N'2021-08-22T13:14:26.573' AS DateTime), CAST(N'2021-08-22T13:14:26.573' AS DateTime))
+INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (2, N'Samantha', N'Carter', N'samcartersavijsell@sharklasers.com', N'AHNKaXYwQlEDpUYMCEKFkgOb752AS2Lkpc6OH09IkCBOPchk3sbqC/fXQq2/TGCEsg==', N'80914', N'ColonelCarter', NULL, 1, 1, CAST(N'2021-08-22T13:14:26.573' AS DateTime), CAST(N'2021-08-22T13:14:26.573' AS DateTime))
 GO
-INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (4, N'Unconfirmed', N'User', N'unconfirmedsavijselluser@sharklasers.com', N'Password345!', N'33073', N'UnconfirmedUser', NULL, 1, 0, CAST(N'2021-08-22T13:15:40.830' AS DateTime), CAST(N'2021-08-22T13:15:40.830' AS DateTime))
+INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (4, N'Unconfirmed', N'User', N'unconfirmedsavijselluser@sharklasers.com', N'AHNKaXYwQlEDpUYMCEKFkgOb752AS2Lkpc6OH09IkCBOPchk3sbqC/fXQq2/TGCEsg==', N'33073', N'UnconfirmedUser', NULL, 1, 0, CAST(N'2021-08-22T13:15:40.830' AS DateTime), CAST(N'2021-08-22T13:15:40.830' AS DateTime))
 GO
-INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (5, N'Inactive', N'User', N'inactiveusersavijsell@sharklasers.com', N'Password456!', N'14618', N'InactiveUser', NULL, 0, 1, CAST(N'2021-08-22T13:17:04.143' AS DateTime), CAST(N'2021-08-22T13:17:04.143' AS DateTime))
+INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (5, N'Inactive', N'User', N'inactiveusersavijsell@sharklasers.com', N'AHNKaXYwQlEDpUYMCEKFkgOb752AS2Lkpc6OH09IkCBOPchk3sbqC/fXQq2/TGCEsg==', N'14618', N'InactiveUser', NULL, 0, 1, CAST(N'2021-08-22T13:17:04.143' AS DateTime), CAST(N'2021-08-22T13:17:04.143' AS DateTime))
 GO
 SET IDENTITY_INSERT [dbo].[Users] OFF
 GO
