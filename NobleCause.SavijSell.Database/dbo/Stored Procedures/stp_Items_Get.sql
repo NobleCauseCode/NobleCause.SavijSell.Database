@@ -19,10 +19,6 @@ BEGIN
 				,i.AskingPrice
 				,i.CreatedDate
 		FROM	Items i WITH (NOLOCK)
-				INNER JOIN ItemTags it WITH (NOLOCK)
-					ON i.ItemId = it.ItemId
-				INNER JOIN Tags t WITH (NOLOCK)
-					ON it.TagId = t.TagId
 		WHERE	i.IsActive = 1
 				AND i.IsSold = 0
      

@@ -20,19 +20,21 @@ INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [P
 GO
 INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (5, N'Inactive', N'User', N'inactiveusersavijsell@sharklasers.com', N'AHNKaXYwQlEDpUYMCEKFkgOb752AS2Lkpc6OH09IkCBOPchk3sbqC/fXQq2/TGCEsg==', N'14618', N'InactiveUser', NULL, 0, 1, CAST(N'2021-08-22T13:17:04.143' AS DateTime), CAST(N'2021-08-22T13:17:04.143' AS DateTime))
 GO
+INSERT [dbo].[Users] ([UserId], [FirstName], [LastName], [Email], [Password], [PostalCode], [UserName], [Picture], [Active], [IsConfirmed], [CreatedDate], [ModifiedDate]) VALUES (8, N'Test', N'User', N'test.user@sharklasers.com', N'AIenL43SynajYgX3Y2SuZwfBN9PT0zc7lVzAxZY7LiBU75YuNy16H7sn1v1U3dBZhQ==', N'33301', N'TestUser', NULL, 1, 0, CAST(N'2021-10-29T17:09:43.047' AS DateTime), CAST(N'2021-10-29T17:09:43.047' AS DateTime))
+GO
 SET IDENTITY_INSERT [dbo].[Users] OFF
 GO
 SET IDENTITY_INSERT [dbo].[Items] ON 
 GO
-INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (2, 1, N'ESP Guitar', N'Blue Custom ESP mKII. In excellent condition and ready for a new home', N'/images/guitar1.jpg', N'27502', 1000.0000, 1, 0, CAST(N'2021-08-22T13:20:36.307' AS DateTime), CAST(N'2021-08-22T13:20:36.307' AS DateTime))
+INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (2, 1, N'ESP Guitar', N'Blue Custom ESP mKII. In excellent condition and ready for a new home', N'/assets/images/guitar1.jpg', N'27502', 1000.0000, 1, 0, CAST(N'2021-08-22T13:20:36.307' AS DateTime), CAST(N'2021-08-22T13:20:36.307' AS DateTime))
 GO
-INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (3, 1, N'Macbook Pro', N'Like New MBP with touchbar. Great laptop for any need', N'/images/laptop1.png', N'27502', 999.5000, 1, 0, CAST(N'2021-08-22T13:21:51.553' AS DateTime), CAST(N'2021-08-22T13:21:51.553' AS DateTime))
+INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (3, 1, N'Macbook Pro', N'Like New MBP with touchbar. Great laptop for any need', N'/assets/images/laptop1.jpg', N'27502', 999.5000, 1, 0, CAST(N'2021-08-22T13:21:51.553' AS DateTime), CAST(N'2021-08-22T13:21:51.553' AS DateTime))
 GO
-INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (4, 1, N'Dan Marino Football', N'Autographed by Dan the man himself! True collectors item, one of a kind.', N'/images/football1.png', N'27502', 450.0000, 0, 1, CAST(N'2021-08-22T13:23:12.860' AS DateTime), CAST(N'2021-08-22T13:23:12.860' AS DateTime))
+INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (4, 1, N'Dan Marino Football', N'Autographed by Dan the man himself! True collectors item, one of a kind.', N'/assets/images/football1.png', N'27502', 450.0000, 0, 1, CAST(N'2021-08-22T13:23:12.860' AS DateTime), CAST(N'2021-08-22T13:23:12.860' AS DateTime))
 GO
-INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (5, 2, N'Ancient Artifact', N'I have no idea what this does, it comes from aliens and is most likely hazerdous. I dont want it AT ALL!', N'/images/artifact.png', N'80914', 50.0000, 1, 0, CAST(N'2021-08-22T13:25:13.900' AS DateTime), CAST(N'2021-08-22T13:25:13.900' AS DateTime))
+INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (5, 2, N'Ancient Artifact', N'I have no idea what this does, it comes from aliens and is most likely hazerdous. I dont want it AT ALL!', N'/assets/images/artifact.png', N'80914', 50.0000, 1, 0, CAST(N'2021-08-22T13:25:13.900' AS DateTime), CAST(N'2021-08-22T13:25:13.900' AS DateTime))
 GO
-INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (6, 2, N'DHD Dialing Device - Parts', N'This is a broken DHD, good for parts or home decor.', N'/images/dhd1.png', N'80914', 100.0000, 0, 1, CAST(N'2021-08-22T13:27:28.533' AS DateTime), CAST(N'2021-08-22T13:27:28.533' AS DateTime))
+INSERT [dbo].[Items] ([ItemId], [UserId], [Title], [Description], [Image], [PostalCode], [AskingPrice], [IsActive], [IsSold], [CreatedDate], [ModifiedDate]) VALUES (6, 2, N'DHD Dialing Device - Parts', N'This is a broken DHD, good for parts or home decor.', N'/assets/images/dhd1.png', N'80914', 100.0000, 0, 1, CAST(N'2021-08-22T13:27:28.533' AS DateTime), CAST(N'2021-08-22T13:27:28.533' AS DateTime))
 GO
 SET IDENTITY_INSERT [dbo].[Items] OFF
 GO
